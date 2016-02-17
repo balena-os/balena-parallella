@@ -34,7 +34,7 @@ module.exports =
 		machine: 'parallella-hdmi-resin'
 		image: 'resin-image'
 		fstype: 'resin-sdcard'
-		version: 'yocto-fido'
+		version: 'yocto-jethro'
 		deployArtifact: 'resin-image-parallella-hdmi-resin.resin-sdcard'
 
 	configuration:
