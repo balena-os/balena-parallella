@@ -1,3 +1,10 @@
+FILESEXTRAPATHS_append := ":${THISDIR}/${PN}"
+
+SRC_URI_append = " \
+    file://0001-add-gcc5-support.patch \
+    file://0002-use-gcc-inline-version.patch \
+    "
+
 inherit kernel-resin
 
 SRCREV = "7a0dc647b9b1c0010ff83fc117e29b408d5693bb"
