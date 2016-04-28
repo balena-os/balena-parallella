@@ -36,6 +36,7 @@ module.exports =
 		fstype: 'resin-sdcard'
 		version: 'yocto-jethro'
 		deployArtifact: 'resin-image-parallella-hdmi-resin.resin-sdcard'
+		compressed: true
 
 	configuration:
 		config:
