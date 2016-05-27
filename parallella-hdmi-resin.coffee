@@ -71,16 +71,6 @@ module.exports =
 			when:
 				coprocessorCore: '16'
 				processorType: 'Z7020'
-		,
-			command: 'copy'
-			from:
-				partition:
-					primary: 1
-				path: '/device-trees/parallella-mmc-boot.dtb'
-			to:
-				partition:
-					primary: 1
-				path: '/devicetree.dtb'
 		]
 
 	initialization: commonImg.initialization
