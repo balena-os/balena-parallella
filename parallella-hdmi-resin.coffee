@@ -2,6 +2,7 @@ deviceTypesCommon = require '@resin.io/device-types/common'
 { networkOptions, commonImg, instructions } = deviceTypesCommon
 
 module.exports =
+	version: 1
 	# TODO: why HDMI if it's broken?
 	slug: 'parallella'
 	aliases: [ 'parallella-hdmi-resin' ]
@@ -41,8 +42,7 @@ module.exports =
 	configuration:
 		config:
 			partition:
-				primary: 4
-				logical: 1
+				primary: 1
 			path: '/config.json'
 
 		operations: [
