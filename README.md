@@ -1,5 +1,7 @@
 #  resin-parallella repository
 
+## This BSP has been discontinued, which means resin.io and resinos.io will no longer offer prebuilt versions for this BSP.
+
 ## Clone/Initialize the repository
 
 There are two ways of initializing this repository:

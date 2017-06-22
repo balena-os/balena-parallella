@@ -8,7 +8,7 @@ module.exports =
 	aliases: [ 'parallella-hdmi-resin' ]
 	name: 'Parallella'
 	arch: 'armv7hf'
-	state: 'released'
+	state: 'discontinued'
 
 	instructions: commonImg.instructions
 	gettingStartedLink:
