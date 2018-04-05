@@ -1,6 +1,8 @@
 Change log
 -----------
 
+# v2.0.0-beta12.rev2 - 2018-04-05
+
 * Bump resin-yocto-scripts to current HEAD [Andrei]
 * Mark as deprecated [Will]
 
